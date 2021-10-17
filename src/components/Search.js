@@ -23,6 +23,10 @@ const Search = () => {
     })
       .then((response) => response.json())
       .then((data) => {
+        if (data.error)
+          return alert(
+            "API Refused request due to limits per second. Please try again :("
+          );
         setTracksArray(data.data);
         console.log(data.data);
         data.data &&
