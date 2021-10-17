@@ -1,0 +1,15 @@
+aside {
+  width: 30%;
+  height: 100%;
+  background: teal;
+}
+
+aside .avatar {
+  width: 200px;
+  height: 200px;
+}
+
+aside .chartWrapper {
+  max-width: 350px;
+  margin: 10px;
+}

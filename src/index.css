@@ -1,13 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background: black;
+  overflow: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  font-family: "Cabin", sans-serif;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #005a5a;
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: teal;
+  border-radius: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.centered {
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  justify-content: flex-start;
+}
+
+.section {
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+}
+
+button,
+input {
+  font-size: 18px;
+  border-radius: 20px;
+  border: 2px solid white;
+  background: none;
+  color: white;
+  outline: none;
+  margin: 10px;
+}
+
+@keyframes playing {
+  0% {
+    height: 30%;
+  }
+
+  50% {
+    height: 10%;
+  }
+
+  100% {
+    height: 30%;
+  }
 }
