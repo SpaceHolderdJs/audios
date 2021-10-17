@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/audios/static/css/main.b1ac76a4.chunk.css",
+    "main.js": "/audios/static/js/main.d3526e6e.chunk.js",
+    "main.js.map": "/audios/static/js/main.d3526e6e.chunk.js.map",
+    "runtime-main.js": "/audios/static/js/runtime-main.97af5d76.js",
+    "runtime-main.js.map": "/audios/static/js/runtime-main.97af5d76.js.map",
+    "static/js/2.1be401c7.chunk.js": "/audios/static/js/2.1be401c7.chunk.js",
+    "static/js/2.1be401c7.chunk.js.map": "/audios/static/js/2.1be401c7.chunk.js.map",
+    "static/js/3.0da882fb.chunk.js": "/audios/static/js/3.0da882fb.chunk.js",
+    "static/js/3.0da882fb.chunk.js.map": "/audios/static/js/3.0da882fb.chunk.js.map",
+    "index.html": "/audios/index.html",
+    "static/css/main.b1ac76a4.chunk.css.map": "/audios/static/css/main.b1ac76a4.chunk.css.map",
+    "static/js/2.1be401c7.chunk.js.LICENSE.txt": "/audios/static/js/2.1be401c7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97af5d76.js",
+    "static/js/2.1be401c7.chunk.js",
+    "static/css/main.b1ac76a4.chunk.css",
+    "static/js/main.d3526e6e.chunk.js"
+  ]
+}
