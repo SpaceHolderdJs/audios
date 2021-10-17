@@ -48,7 +48,7 @@ const Search = () => {
         <div className="row centered">
           <input
             type="text"
-            placeholder="Track..."
+            placeholder="Artist..."
             value={value}
             onChange={(e) => setValue(e.target.value)}
           />
